@@ -1,2 +1,24 @@
-# FLAMES
-   FLAMES stance for  F - Friendship  L - Love  A - Affection  M - Marriage  E - Enemy  S - Sister (Sibling)  Example :  Your name: asd  Your Partner name: abcd  1. Get the flames count  Take the two names (asd and abcd)  Remove the common characters (two common characters a, d)  Get the count of the characters that are left (Removed a,d and the rest are s,b,c. So total 3.)  2. Get the flames result  We take FLAMES letters ('F', 'L', 'A', 'M', 'E', 'S')  And start removing letters using the flames count we got.  And the letter which last the process is the result.  In our example we got flames count = 3. So first we takes FLAMES.  FLAMES  Then we start count from left up to flames count 3. Then remove the letter which is in the position 3. In this case it is A. So the letters become:  FLMES  Then we start count again from the letter which is removed ie, from M. So the next character to remove is S. So our letters become:  FLME  After next step:  FLE  Then:  FE  At Last:  F  So the result is 'Friend' as letter F meant for Frienship in FLAMES game.
+   # FLAMES
+
+   FLAMES stands for:
+   - **F** - Friendship
+   - **L** - Love
+   - **A** - Affection
+   - **M** - Marriage
+   - **E** - Enemy
+   - **S** - Sister (Sibling)
+
+   ### Example:
+   **Your name:** asd  
+   **Your Partner's name:** abcd
+
+   1. **Get the FLAMES count:**
+      - Take the two names (asd and abcd).
+      - Remove the common characters (two common characters: a, d).
+      - Get the count of the characters that are left (Removed a, d and the rest are s, b, c. So total 3).
+
+   2. **Get the FLAMES result:**
+      - We take FLAMES letters ('F', 'L', 'A', 'M', 'E', 'S').
+      - Start removing letters using the FLAMES count we got.
+      - The letter which lasts the process is the result.
+
