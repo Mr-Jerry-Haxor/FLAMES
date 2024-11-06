@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FLAMES Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="game-title">💖 FLAMES Game 💖</h1>
+        
+        <div class="game-instructions">
+            <p class="instruction-text">Enter two names to see what fate has in store for you both!</p>
+            <p class="instruction-text">Let the sparks fly! 💫</p>
+        </div>
+
+        <div class="input-section">
+            <label for="name1">Name 1:</label>
+            <input type="text" id="name1" placeholder="Your Name...">
+
+            <label for="name2">Name 2:</label>
+            <input type="text" id="name2" placeholder="Their Name...">
+
+            <button id="calculateBtn">💘 Let's Calculate 💘</button>
+            <p style="color: crimson;">Note: Just for FUN,  don't take it seriously! 😊</p>
+
+        </div>
+
+        <div class="game-results">
+            <h2>💌 Relationship Result 💌: <span id="flames-result">--</span></h2>
+            <div id="relationship-message" class="relationship-message"></div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
